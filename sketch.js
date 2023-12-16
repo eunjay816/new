@@ -13,7 +13,7 @@ function setup() {
     random(-height, height),
     10
   );//7이제 랜덤으로 벡터 만들어보기*/
-  speedSlider=createSlider(0, 20,0);//0~20범위의 0을 시작값으로 하는 슬라이더 생성
+  speedSlider=createSlider(0, 20,2);//0~20범위의 0을 시작값으로 하는 슬라이더 생성
   for(let i=0; i<500; i++){
     stars[i]=createVector(
       random(-width*factor, width*factor),
